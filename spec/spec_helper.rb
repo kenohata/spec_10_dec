@@ -86,3 +86,9 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+Capybara.configure do |config|
+  config.run_server = false
+  config.default_driver = :webkit
+  config.app_host = 'http://0.0.0.0:3000/' # localhost(rails s)
+end
