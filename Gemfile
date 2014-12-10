@@ -31,6 +31,7 @@ gem 'rspec-rails'
 gem 'factory_girl_rails'
 gem 'turnip'
 gem 'capybara'
+gem 'capybara-webkit'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
